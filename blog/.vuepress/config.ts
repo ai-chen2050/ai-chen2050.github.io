@@ -53,7 +53,7 @@ export default defineUserConfig({
     // personal information
     personalInfo: {
       name: "Blake Chan",
-      avatar: "/img/avatar.jpg",
+      avatar: "/img/avatar6.png",
       description: "Be the change you wish to see in the world.",
       sns: {
         github: "ai-chen2050",
