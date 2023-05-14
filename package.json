@@ -1,5 +1,5 @@
 {
-  "name": "renovamen-blog",
+  "name": "blakechen-blog",
   "private": true,
   "scripts": {
     "clean": "rimraf blog/.vuepress/.temp blog/.vuepress/.cache blog/.vuepress/dist",

@@ -5,8 +5,8 @@ import { gungnirTheme } from "vuepress-theme-gungnir";
 const isProd = process.env.NODE_ENV === "production";
 
 export default defineUserConfig({
-  title: "Xiaohan Zou",
-  description: "Xiaohan Zou (Renovamen) is a dragon lost in human world.",
+  title: "Blake Chan",
+  description: "Blake Chan (Blakechan) be the change you wish to see in the world.",
 
   head: [
     [
@@ -27,8 +27,8 @@ export default defineUserConfig({
         href: `/img/logo/favicon-32x32.png`
       }
     ],
-    ["meta", { name: "application-name", content: "Xiaohan Zou" }],
-    ["meta", { name: "apple-mobile-web-app-title", content: "Xiaohan Zou" }],
+    ["meta", { name: "application-name", content: "Blake Chan" }],
+    ["meta", { name: "apple-mobile-web-app-title", content: "Blake Chan" }],
     [
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" }
@@ -44,24 +44,22 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   theme: gungnirTheme({
-    repo: "Renovamen/blog.zxh.io",
+    repo: "ai-chen2050/ai-chen2050.github.io",
     docsDir: "blog",
-    docsBranch: "master",
+    docsBranch: "main",
 
     hitokoto: "https://v1.hitokoto.cn?c=i", // enable hitokoto (一言) or not?
 
     // personal information
     personalInfo: {
-      name: "Renovamen",
+      name: "Blake Chan",
       avatar: "/img/avatar.jpg",
-      description: "いつか、私がヒトじゃなくなっても",
+      description: "Be the change you wish to see in the world.",
       sns: {
-        github: "Renovamen",
-        linkedin: "xiaohan-zou",
-        // facebook: "renovamen.zou",
-        twitter: "renovamen_zxh",
-        zhihu: "chao-neng-gui-su",
-        email: "renovamenzxh@gmail.com",
+        github: "ai-chen2050",
+        linkedin: "blake-chen-2825a9118",
+        twitter: "Mr_chen5694",
+        email: "ai-chen2050@qq.com",
         rss: "/rss.xml"
       }
     },
@@ -117,7 +115,7 @@ export default defineUserConfig({
         repoId: "R_kgDOGl2SjQ",
         category: "Announcements",
         categoryId: "DIC_kwDOGl2Sjc4CAcxK",
-        darkTheme: "https://blog.zxh.io/styles/giscus-dark.css"
+        darkTheme: "/styles/giscus-dark.css"
       },
       mdPlus: {
         all: true
@@ -125,8 +123,8 @@ export default defineUserConfig({
       ga: "G-HCQSX53XFG",
       ba: "75381d210789d3eaf855fa16246860cc",
       rss: {
-        siteURL: "https://blog.zxh.io",
-        copyright: "Renovamen 2018-2022"
+        siteURL: "https://ai-chen2050.github.io/",
+        copyright: "Blakechan 2018-2022"
       }
     },
 
@@ -148,21 +146,18 @@ export default defineUserConfig({
       },
       {
         text: "About",
-        link: "https://zxh.io",
+        link: "https://github.com/ai-chen2050",
         icon: "fa-paw"
       },
-      {
-        text: "Portfolio",
-        link: "https://portfolio.zxh.io/",
-        icon: "oi-rocket"
-      }
+      // {
+      //   text: "Portfolio",
+      //   link: "https://portfolio.zxh.io/",
+      //   icon: "oi-rocket"
+      // }
     ],
 
     footer: `
-      &copy; <a href="https://github.com/Renovamen" target="_blank">Renovamen</a> 2018-2022
-      <br>
-      Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
-      <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
+      &copy; <a href="https://github.com/ai-chen2050" target="_blank">Blakechan</a> 2018-2023
     `
   }),
 
