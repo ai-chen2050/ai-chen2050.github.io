@@ -145,6 +145,11 @@ export default defineUserConfig({
         icon: "fa-satellite-dish"
       },
       {
+        text: "Blogs",
+        link: "https://blog.csdn.net/smilejiasmile",
+        icon: "oi-rocket"
+      },
+      {
         text: "About",
         link: "https://github.com/ai-chen2050",
         icon: "fa-paw"
