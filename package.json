@@ -6,8 +6,7 @@
     "dev": "pnpm build-ts && vuepress-cli dev blog --clean-cache",
     "build": "pnpm clean && pnpm build-ts && vuepress-cli build blog --clean-cache",
     "serve": "serve blog/.vuepress/dist",
-
-    "build:copy": "pnpm --parallel --stream copy", 
+    "build:copy": "pnpm --parallel --stream copy",
     "build-ts:all": "tsc -b tsconfig.build.json --clean && tsc -b tsconfig.build.json",
     "build-ts": "pnpm build-ts:all && pnpm build:copy",
     "dev:copy": "pnpm build:copy --watch",
@@ -20,17 +19,18 @@
     "release:version": "bumpp package.json packages/*/package.json packages/plugins/*/package.json --execute=\"pnpm release:changelog\" --commit \"build: publish v%s\" --all --tag --push"
   },
   "devDependencies": {
+    "@types/webpack-env": "^1.17.0",
     "@vuepress/bundler-vite": "2.0.0-beta.49",
     "@vuepress/cli": "2.0.0-beta.49",
     "@vuepress/client": "2.0.0-beta.49",
-    "@types/webpack-env": "^1.17.0",
     "concurrently": "^7.2.2",
-    "oh-vue-icons": "^1.0.0-rc3",
-    "rimraf": "^3.0.2",
-    "sass-loader": "^13.0.2",
     "eslint": "^8.18.0",
     "eslint-config-vuepress": "^3.10.0",
     "eslint-config-vuepress-typescript": "^2.9.1",
+    "husky": "^8.0.1",
+    "oh-vue-icons": "^1.0.0-rc3",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^13.0.2",
     "serve": "^14.0.1",
     "tsconfig-vuepress": "^0.2.1",
     "typescript": "^4.7.4",
@@ -42,7 +42,6 @@
     "node": ">=14",
     "pnpm": ">=7"
   },
-  "packageManager": "pnpm@7.1.7",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
