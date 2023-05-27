@@ -1,0 +1,4 @@
+packages:
+  - blog
+  - packages/plugins/*
+  - packages/theme

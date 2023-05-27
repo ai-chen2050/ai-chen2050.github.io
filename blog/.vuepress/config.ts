@@ -1,6 +1,7 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
-import { gungnirTheme } from "vuepress-theme-gungnir";
+import { gungnirTheme } from "../../packages/theme/lib/node/gungnirTheme";
+// import { gungnirTheme } from "vuepress-theme-gungnir";
 
 const isProd = process.env.NODE_ENV === "production";
 

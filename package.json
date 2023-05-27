@@ -2,30 +2,57 @@
   "name": "blakechen-blog",
   "private": true,
   "scripts": {
-    "clean": "rimraf blog/.vuepress/.temp blog/.vuepress/.cache blog/.vuepress/dist",
-    "dev": "vuepress-cli dev blog --clean-cache",
-    "build": "pnpm clean && vuepress-cli build blog --clean-cache",
-    "serve": "serve blog/.vuepress/dist"
+    "clean": "rimraf blog/.vuepress/.temp blog/.vuepress/.cache blog/.vuepress/dist packages/theme/lib packages/theme/*.tsbuildinfo",
+    "dev": "pnpm build-ts && vuepress-cli dev blog --clean-cache",
+    "build": "pnpm clean && pnpm build-ts && vuepress-cli build blog --clean-cache",
+    "serve": "serve blog/.vuepress/dist",
+
+    "build:copy": "pnpm --parallel --stream copy", 
+    "build-ts:all": "tsc -b tsconfig.build.json --clean && tsc -b tsconfig.build.json",
+    "build-ts": "pnpm build-ts:all && pnpm build:copy",
+    "dev:copy": "pnpm build:copy --watch",
+    "dev-ts": "concurrently \"tsc -b tsconfig.build.json --watch\" \"pnpm run dev:copy\"",
+    "prepare": "husky install",
+    "release": "pnpm release:check && pnpm release:version && pnpm release:publish",
+    "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "release:check": "pnpm lint && pnpm clean && pnpm build",
+    "release:publish": "pnpm -r publish --tag next",
+    "release:version": "bumpp package.json packages/*/package.json packages/plugins/*/package.json --execute=\"pnpm release:changelog\" --commit \"build: publish v%s\" --all --tag --push"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-beta.49",
     "@vuepress/cli": "2.0.0-beta.49",
     "@vuepress/client": "2.0.0-beta.49",
+    "@types/webpack-env": "^1.17.0",
+    "concurrently": "^7.2.2",
     "oh-vue-icons": "^1.0.0-rc3",
-    "sass-loader": "^13.0.2",
-    "serve": "^14.0.1",
     "rimraf": "^3.0.2",
+    "sass-loader": "^13.0.2",
+    "eslint": "^8.18.0",
+    "eslint-config-vuepress": "^3.10.0",
+    "eslint-config-vuepress-typescript": "^2.9.1",
+    "serve": "^14.0.1",
+    "tsconfig-vuepress": "^0.2.1",
+    "typescript": "^4.7.4",
+    "vite": "~2.9.12",
     "vue": "^3.2.36",
-    "vuepress": "2.0.0-beta.49",
-    "vuepress-theme-gungnir": "2.0.0-alpha.26"
+    "vuepress": "2.0.0-beta.49"
   },
   "engines": {
     "node": ">=14",
     "pnpm": ">=7"
   },
+  "packageManager": "pnpm@7.1.7",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
+        "@algolia/client-search",
+        "@types/react",
+        "eslint-plugin-import",
+        "eslint-plugin-n",
+        "eslint-plugin-promise",
+        "react",
+        "react-dom",
         "webpack"
       ]
     }
