@@ -15,7 +15,7 @@ It used be be built with:
 
 ## Usage
 
-Clone the repo and install dependencies:
+Clone the repo and install dependencies (or use yarn to install and dev): 
 
 ```bash
 pnpm i
