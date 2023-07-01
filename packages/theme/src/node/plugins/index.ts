@@ -1,16 +1,16 @@
-import { baiduTongjiPlugin } from "@renovamen/vuepress-plugin-baidu-tongji";
-import { katexPlugin } from "@renovamen/vuepress-plugin-katex";
-import { mdPlusPlugin } from "@renovamen/vuepress-plugin-md-plus";
-import { readingTimePlugin } from "@renovamen/vuepress-plugin-reading-time";
-import { searchPlugin } from "@renovamen/vuepress-plugin-search";
+import { baiduTongjiPlugin } from "../../../../plugins/baidu-tongji";
+import { katexPlugin } from "../../../../plugins/katex";
+import { mdPlusPlugin } from "../../../../plugins/md-plus";
+import { readingTimePlugin } from "../../../../plugins/reading-time";
+import { searchPlugin } from "../../../../plugins/search";
 import type { PluginConfig } from "@vuepress/core";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { nprogressPlugin } from "@vuepress/plugin-nprogress";
 import { palettePlugin } from "@vuepress/plugin-palette";
 import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 import { themeDataPlugin } from "@vuepress/plugin-theme-data";
-import { chartPlugin } from "vuepress-plugin-chart";
-import { codeEnhancePlugin } from "vuepress-plugin-code-enhance";
+import { chartPlugin } from "../../../../plugins/chart";
+import { codeEnhancePlugin } from "../../../../plugins/code-enhance";
 import type {
   GungnirThemeData,
   GungnirThemePluginsOptions
