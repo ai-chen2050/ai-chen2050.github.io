@@ -1,13 +1,13 @@
-import type { MdPlusOptions } from "@renovamen/vuepress-plugin-md-plus";
-import type { MermaidOptions } from "@renovamen/vuepress-plugin-mermaid";
-import type { ReadingTimeOptions } from "@renovamen/vuepress-plugin-reading-time";
-import type { RSSOptions } from "@renovamen/vuepress-plugin-rss";
-import type { SearchPluginOptions } from "@renovamen/vuepress-plugin-search";
+import type { MdPlusOptions } from "../../../plugins/md-plus";
+import type { MermaidOptions } from "../../../plugins/mermaid";
+import type { ReadingTimeOptions } from "../../../plugins/reading-time";
+import type { RSSOptions } from "../../../plugins/rss";
+import type { SearchPluginOptions } from "../../../plugins/search";
 import type { PwaPluginOptions } from "@vuepress/plugin-pwa";
 import type { BlogOptions } from "vuepress-plugin-blog2";
-import type { ChartOptions } from "vuepress-plugin-chart";
-import type { CodeEnhanceOptions } from "vuepress-plugin-code-enhance";
-import type { GiscusOptions } from "vuepress-plugin-giscus";
+import type { ChartOptions } from "../../../plugins/chart";
+import type { CodeEnhanceOptions } from "../../../plugins/code-enhance";
+import type { GiscusOptions } from "../../../plugins/giscus";
 
 export interface GungnirGiscusOptions extends GiscusOptions {
   darkTheme?: string;

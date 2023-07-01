@@ -73,7 +73,7 @@ export default defineUserConfig({
       },
       {
         path: "/img/home-bg/2.jpg",
-        // mask: "rgba(196, 176, 131, .1)"
+        mask: "rgba(196, 176, 131, .1)"
       },
       {
         path: "/img/home-bg/3.jpg",
@@ -112,10 +112,10 @@ export default defineUserConfig({
       git: isProd,
       katex: true,
       giscus: {
-        repo: "This-is-an-Apple/blog-giscus-comments",
-        repoId: "R_kgDOGl2SjQ",
+        repo: "ai-chen2050/ai-chen2050.github.io",
+        repoId: "R_kgDOJi2wdA",
         category: "Announcements",
-        categoryId: "DIC_kwDOGl2Sjc4CAcxK",
+        categoryId: "DIC_kwDOJi2wdM4CXmQ2",
         darkTheme: "/styles/giscus-dark.css"
       },
       mdPlus: {

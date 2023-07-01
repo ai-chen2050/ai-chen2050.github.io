@@ -1,5 +1,5 @@
-import { mermaidPlugin } from "@renovamen/vuepress-plugin-mermaid";
-import type { MermaidOptions } from "@renovamen/vuepress-plugin-mermaid";
+import { mermaidPlugin } from "../../../../plugins/mermaid";
+import type { MermaidOptions } from "../../../../plugins/mermaid";
 import type { Plugin } from "@vuepress/core";
 
 export const getMermaidPlugin = (

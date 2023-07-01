@@ -1,4 +1,4 @@
-import type { ReadingTime } from "@renovamen/vuepress-plugin-reading-time";
+import type { ReadingTime } from "../../../plugins/reading-time";
 import type { GitPluginPageData } from "@vuepress/plugin-git";
 import type { NavLink, SidebarConfig } from "./nav";
 

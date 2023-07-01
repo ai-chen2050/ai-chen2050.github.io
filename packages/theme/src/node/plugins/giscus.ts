@@ -1,5 +1,5 @@
 import type { Plugin } from "@vuepress/core";
-import { giscusPlugin } from "vuepress-plugin-giscus";
+import { giscusPlugin } from "../../../../plugins/giscus";
 import type { GungnirGiscusOptions, GungnirThemeData } from "../../shared";
 
 export const getGiscusPlugin = (
