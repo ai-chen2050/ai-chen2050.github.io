@@ -122,7 +122,7 @@ export default defineUserConfig({
         all: true
       },
       ga: "G-1CQNQNPK1Y",
-      ba: "75381d210789d3eaf855fa16246860cc",
+      ba: "b3a7b6fedcba22d39897693d6f716035",
       rss: {
         siteURL: "https://ai-chen2050.github.io/",
         copyright: "Blakechan 2018-2022"
