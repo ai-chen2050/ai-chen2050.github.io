@@ -121,7 +121,7 @@ export default defineUserConfig({
       mdPlus: {
         all: true
       },
-      ga: "G-HCQSX53XFG",
+      ga: "G-1CQNQNPK1Y",
       ba: "75381d210789d3eaf855fa16246860cc",
       rss: {
         siteURL: "https://ai-chen2050.github.io/",
