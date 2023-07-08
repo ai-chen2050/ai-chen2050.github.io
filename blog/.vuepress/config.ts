@@ -60,6 +60,7 @@ export default defineUserConfig({
         github: "ai-chen2050",
         linkedin: "blake-chen-2825a9118",
         twitter: "Mr_chen5694",
+        csdn: "smilejiasmile",
         email: "ai-chen2050@qq.com",
         rss: "/rss.xml"
       }
@@ -94,7 +95,7 @@ export default defineUserConfig({
         subtitle: "Black Sheep Wall",
         bgImage: {
           path: "/img/pages/tags.jpg",
-          mask: "rgba(211, 136, 37, .5)"
+          mask: "rgba(211, 136, 37, .3)"
         }
       },
       links: {
@@ -103,6 +104,14 @@ export default defineUserConfig({
         bgImage: {
           path: "/img/pages/links.jpg",
           mask: "rgba(64, 118, 190, 0.5)"
+        }
+      },
+      about: {
+        subtitle:
+          "Be the change you wish to see in the world.",
+        bgImage: {
+          path: "/img/pages/forest.jpg",
+          mask: "rgba(0, 211, 0, 0.2)"
         }
       }
     },
@@ -146,15 +155,16 @@ export default defineUserConfig({
         icon: "fa-satellite-dish"
       },
       {
-        text: "Blogs",
-        link: "https://blog.csdn.net/smilejiasmile",
+        text: "Projs",
+        link: "https://github.com/ai-chen2050",
         icon: "oi-rocket"
       },
       {
         text: "About",
-        link: "https://github.com/ai-chen2050",
-        icon: "fa-paw"
-      },
+        // link: "https://github.com/ai-chen2050",
+        link: "/about/",
+        icon: "fa-paw",
+      }
       // {
       //   text: "Portfolio",
       //   link: "https://portfolio.zxh.io/",

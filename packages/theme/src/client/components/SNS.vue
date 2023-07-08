@@ -50,6 +50,10 @@ const defaultSNS = {
     icon: "ri-weibo-fill",
     preLink: "http://weibo.com/u/"
   },
+  csdn: {
+    icon: "co-bitdefender",
+    preLink: "https://blog.csdn.net/"
+  },
   email: {
     icon: "fa-envelope",
     preLink: "mailto:"

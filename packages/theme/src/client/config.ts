@@ -2,6 +2,7 @@ import { defineClientConfig } from "@vuepress/client";
 import { addIcons, OhVueIcon } from "oh-vue-icons";
 import {
   BiLayoutSidebarInset,
+  CoBitdefender,
   FaChevronDown,
   FaChevronLeft,
   FaChevronRight,
@@ -42,6 +43,7 @@ import "./styles/index.scss";
 
 addIcons(
   FaChevronDown,
+  CoBitdefender,
   FaChevronUp,
   FaChevronLeft,
   FaChevronRight,
