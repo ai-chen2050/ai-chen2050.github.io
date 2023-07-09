@@ -111,7 +111,7 @@ export default defineUserConfig({
           "Be the change you wish to see in the world.",
         bgImage: {
           path: "/img/pages/forest.jpg",
-          mask: "rgba(0, 211, 0, 0.2)"
+          mask: "rgba(0, 255, 127, 0.33)"
         }
       }
     },

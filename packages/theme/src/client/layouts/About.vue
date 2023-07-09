@@ -2,7 +2,6 @@
     <Common>
       <template #page>
         <PageHeader :page-info="pageInfo" />
-
           <div class="about-wrapper">
             <Page :key="page.path" class="about-content">
             </Page>
