@@ -41,6 +41,7 @@ const zh: GungnirThemeI18n = {
   pageText: {
     tags: "标签",
     links: "链接",
+    projs: "项目",
     about: "关于"
   },
 

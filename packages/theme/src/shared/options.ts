@@ -18,6 +18,7 @@ export interface GungnirThemePageOptions {
 export interface GungnirThemePagesOptions {
   tags?: GungnirThemePageOptions;
   links?: GungnirThemePageOptions;
+  projs?: GungnirThemePageOptions;
   about?: GungnirThemePageOptions;
 }
 

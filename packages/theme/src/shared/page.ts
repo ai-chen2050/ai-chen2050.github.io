@@ -63,3 +63,21 @@ export interface GungnirThemeLinksPageFrontmatter
   title?: string;
   links: Array<LinkGroup>;
 }
+
+interface ProjItem {
+  sitename: string;
+  url: string;
+  img: string;
+  desc: string;
+}
+
+interface ProjGroup {
+  title: string;
+  item: Array<ProjItem>;
+}
+
+export interface GungnirThemeProjsPageFrontmatter
+  extends GungnirThemePageFrontmatter {
+  title?: string;
+  projs: Array<ProjGroup>;
+}

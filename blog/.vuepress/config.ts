@@ -106,6 +106,14 @@ export default defineUserConfig({
           mask: "rgba(64, 118, 190, 0.5)"
         }
       },
+      projs: {
+        subtitle:
+          "Doers change the world.",
+        bgImage: {
+          path: "/img/pages/purple.jpg",
+          mask: "rgba(160, 32, 240, 0.3)"
+        }
+      },
       about: {
         subtitle:
           "Be the change you wish to see in the world.",
@@ -156,12 +164,11 @@ export default defineUserConfig({
       },
       {
         text: "Projs",
-        link: "https://github.com/ai-chen2050",
+        link: "/projs/",
         icon: "oi-rocket"
       },
       {
         text: "About",
-        // link: "https://github.com/ai-chen2050",
         link: "/about/",
         icon: "fa-paw",
       }

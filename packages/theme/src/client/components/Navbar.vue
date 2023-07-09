@@ -100,6 +100,24 @@ const handleInvert = () => {
     themeLocale.value.pages.links.bgImage
   )
     invert = true;
+  
+  // Projs page with header image
+  if (
+    frontmatter.value.layout === "Projs" &&
+    themeLocale.value.pages &&
+    themeLocale.value.pages.projs &&
+    themeLocale.value.pages.projs.bgImage
+  )
+    invert = true;
+  
+  // About page with header image
+  if (
+    frontmatter.value.layout === "About" &&
+    themeLocale.value.pages &&
+    themeLocale.value.pages.about &&
+    themeLocale.value.pages.about.bgImage
+  )
+    invert = true;
 
   isInvert.value = invert;
 };

@@ -41,6 +41,7 @@ const en: GungnirThemeI18n = {
   pageText: {
     tags: "Tags",
     links: "Links",
+    projs: "Projs",
     about: "About"
   },
 
