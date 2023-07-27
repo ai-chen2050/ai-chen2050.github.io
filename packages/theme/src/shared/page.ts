@@ -69,6 +69,7 @@ interface ProjItem {
   url: string;
   img: string;
   desc: string;
+  showDescription: boolean;
 }
 
 interface ProjGroup {

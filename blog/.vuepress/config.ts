@@ -158,14 +158,14 @@ export default defineUserConfig({
         icon: "fa-tag"
       },
       {
-        text: "Links",
-        link: "/links/",
-        icon: "fa-satellite-dish"
-      },
-      {
         text: "Projs",
         link: "/projs/",
         icon: "oi-rocket"
+      },
+      {
+        text: "Links",
+        link: "/links/",
+        icon: "fa-satellite-dish"
       },
       {
         text: "About",

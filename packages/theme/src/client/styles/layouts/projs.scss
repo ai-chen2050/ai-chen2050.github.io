@@ -44,15 +44,15 @@
       text-decoration: none;
 
       img {
-        padding: 2px;
-        border-radius: 100%;
+        // padding: 2px;
+        border-radius: 10%;
         max-width: 100%;
-        float: right;
+        // float: right;
         box-shadow: inset 0 0 10px var(--c-text);
-        margin-top: 5px;
-        margin-right: -15px;
-        width: 65px;
-        height: 65px;
+        // margin-top: 5px;
+        // margin-right: -15px;
+        // width: 200px;
+        // height: 200px;
       }
 
       span.sitename {
@@ -69,8 +69,8 @@
       .desc {
         color: var(--c-text-sub);
         font-size: 13px;
-        padding: 10px 0;
-        border-top: 1px dashed #ddd;
+        // padding: 10px 0;
+        // border-top: 1px dashed #ddd;
         text-overflow: ellipsis;
         overflow: hidden;
         line-height: 15px;
@@ -119,3 +119,47 @@
     margin-right: 15px;
   }
 }
+
+// gpt
+// .project-list {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .project-item {
+//   margin: 20px;
+// }
+
+// .project-image {
+//   position: relative;
+//   width: 200px;
+//   height: 200px;
+// }
+
+// .project-description {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: rgba(0, 0, 0, 0.5);
+//   color: #fff;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: 16px;
+//   padding: 20px;
+//   box-sizing: border-box;
+//   opacity: 0;
+//   transition: opacity 0.3s ease-in-out;
+// }
+
+// .project-image:hover .project-description {
+//   opacity: 1;
+// }
+
+// .project-name {
+//   margin-top: 10px;
+//   font-size: 16px;
+//   text-align: center;
+// }
