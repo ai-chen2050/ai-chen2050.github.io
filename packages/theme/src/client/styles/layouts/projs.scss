@@ -6,13 +6,13 @@
 }
 
 .proj-section {
-  width: 60%;
-  max-width: 745px;
+  width: 65%;
+  // max-width: 745px;
   margin: 0 auto;
 
   h2 {
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 25px;
     border-left: 3px solid var(--c-text-accent);
     padding-left: 10px;
     margin-left: 5px;
@@ -30,7 +30,7 @@
 }
 
 .proj-item {
-  margin: 4px;
+  margin: 5px;
   cursor: pointer;
 
   .content {
