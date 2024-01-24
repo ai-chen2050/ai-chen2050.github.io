@@ -18,10 +18,9 @@ Previously, I received my master’s degree in [Software engineering](http://www
 
 |                                        |                               |                |          |
 | -------------------------------------- | ----------------------------- | -------------- | -------- |
-| Shanghai Manheng Digital Co,Ltd        | C++/graphics dev              | 2017.8 -2018.3 | Fulltime |
-| Shanghai [Distribution](https://www.linkedin.com/company/onchain/) Info Tech Co,Ltd | Blockchain core dev           | 2018.3 -2020.4 | Fulltime |
+| Shanghai [Distribution](https://www.linkedin.com/company/onchain/) Info Tech Co,Ltd | Blockchain core dev           | 2017.8 -2020.4 | Fulltime |
 | Shanghai Jiansu Network Tech Co,Ltd    | Consortium Blockchain dev     | 2020.5 -2022.4 | Fulltime |
-| [Amber](https://www.linkedin.com/company/amberbtc/mycompany/verification/) Al Limited                       | Blockchain infra dev/Searcher | 2022.4-2022.12 | Fulltime         |
+| [Amber](https://www.linkedin.com/company/amberbtc/mycompany/verification/) Group                       | Blockchain infra dev/Searcher | 2022.4-2022.12 | Fulltime         |
 
 ## Publications
 
