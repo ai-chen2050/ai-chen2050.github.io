@@ -128,6 +128,11 @@ export default defineUserConfig({
       // only enable git plugin in production mode
       git: isProd,
       katex: true,
+      mermaid: {
+        token: "mermaid",
+        theme: "default",  // default: "default"
+        darkTheme: "dark"  // default: "dark"
+      },
       giscus: {
         repo: "ai-chen2050/ai-chen2050.github.io",
         repoId: "R_kgDOJi2wdA",
@@ -180,7 +185,7 @@ export default defineUserConfig({
     ],
 
     footer: `
-      &copy; <a href="https://github.com/ai-chen2050" target="_blank">Blakechan</a> 2018-2023
+      &copy; <a href="https://github.com/ai-chen2050" target="_blank">Blakechan</a> 2018-2024
     `
   }),
 
