@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-cd1c6744","path":"/tags/p2p/","title":"p2p | Tags","lang":"en-US","frontmatter":{"title":"p2p | Tags","layout":"Tags","blog":{"type":"category","name":"p2p","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{t as data};

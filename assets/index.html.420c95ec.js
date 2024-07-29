@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-063baafd","path":"/tags/verifiable-logic-clock/","title":"verifiable logic clock | Tags","lang":"en-US","frontmatter":{"title":"verifiable logic clock | Tags","layout":"Tags","blog":{"type":"category","name":"verifiable logic clock","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{e as data};
