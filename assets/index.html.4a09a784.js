@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-ffa22370","path":"/tags/dynamo/","title":"Dynamo | Tags","lang":"en-US","frontmatter":{"title":"Dynamo | Tags","layout":"Tags","blog":{"type":"category","name":"Dynamo","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{a as data};
