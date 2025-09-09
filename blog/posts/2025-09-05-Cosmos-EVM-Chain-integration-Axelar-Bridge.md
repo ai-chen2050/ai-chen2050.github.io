@@ -17,7 +17,7 @@ genre: work
 
 ## 架构示意图
 
-![axelar-amplifier](../.vuepress/public/img%20/in-post/axelar-amplifier.png)
+![axelar-amplifier](../.vuepress/public/img/in-post/axelar-amplifier.png)
 
 ## Axelar 代码库及文档资源
 
