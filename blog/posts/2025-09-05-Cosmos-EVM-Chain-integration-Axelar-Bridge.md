@@ -9,11 +9,12 @@ create: 10:30
 share: true
 title: Cosmos EVM Chain integration Axelar Bridge
 path: blog/posts
-layout: post
+layout: Post
 due: 
-tags: cosmos
+tags: 
+  - cosmos
 genre: work
-subtitle: 
+subtitle: Axelar Bridge intergeate Cosmos EVM chain
 headerImage: /img/in-post/2018-02-17/header.jpg
 permalinkPattern: /post/:year/:month/:day/:slug/
 ---
