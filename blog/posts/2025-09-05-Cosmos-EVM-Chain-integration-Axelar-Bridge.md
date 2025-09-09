@@ -64,8 +64,6 @@ Axelar bridge 目前提供了两种接入方式。针对 **EVM 兼容链**，推
 
 下图清晰地展示了将一条新链接入 Interchain Amplifier 的完整步骤，从学习测试到最终主网部署。
 
-#### 开发网阶段
-
 ```mermaid
 flowchart TD
     subgraph DevNet阶段
