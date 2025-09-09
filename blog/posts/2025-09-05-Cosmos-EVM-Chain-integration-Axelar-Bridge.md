@@ -13,7 +13,7 @@ layout: Post
 tags:
   - cosmos
 subtitle: Axelar Bridge intergeate Cosmos EVM chain
-headerImage: /img/in-post/2017-06-09/header.jpg
+headerImage: /img/in-post/2017-06-09/header.jpeg
 permalinkPattern: /post/:year/:month/:day/:slug/
 genre: work
 ---
