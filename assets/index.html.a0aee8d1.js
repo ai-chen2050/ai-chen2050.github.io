@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4aea337c","path":"/tags/lightning/","title":"lightning | Tags","lang":"en-US","frontmatter":{"title":"lightning | Tags","layout":"Tags","blog":{"type":"category","name":"lightning","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{t as data};
