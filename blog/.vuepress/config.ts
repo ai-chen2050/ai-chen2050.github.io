@@ -185,7 +185,7 @@ export default defineUserConfig({
     ],
 
     footer: `
-      &copy; <a href="https://github.com/ai-chen2050" target="_blank">Blakechan</a> 2018-2024
+      &copy; <a href="https://github.com/ai-chen2050" target="_blank">Blakechan</a> 2018-2026
     `
   }),
 
