@@ -1,6 +1,6 @@
 import { isFunction, isString } from "@vuepress/shared";
 import { useRouter } from "vue-router";
-import type { Router } from "vue-router";
+import type { Router, RouteLocationRaw } from "vue-router";
 
 /**
  * Resolve a route with redirection
@@ -15,14 +15,21 @@ export const useResolveRouteWithRedirect = (
     return route;
   }
   const { redirect } = lastMatched;
-  const resolvedRedirect = isFunction(redirect) ? redirect(route) : redirect;
+  const resolvedRedirect = isFunction(redirect)
+    ? redirect(route, router.currentRoute.value)
+    : redirect;
   const resolvedRedirectObj = isString(resolvedRedirect)
     ? { path: resolvedRedirect }
     : resolvedRedirect;
-  return useResolveRouteWithRedirect({
+  const base = {
     hash: route.hash,
     query: route.query,
-    params: route.params,
+    ...("path" in resolvedRedirectObj && resolvedRedirectObj.path
+      ? {}
+      : { params: route.params })
+  };
+  return useResolveRouteWithRedirect({
+    ...base,
     ...resolvedRedirectObj
-  });
+  } as RouteLocationRaw);
 };

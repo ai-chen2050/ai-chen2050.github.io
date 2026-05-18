@@ -44,6 +44,9 @@
     "pnpm": ">=7"
   },
   "pnpm": {
+    "overrides": {
+      "cytoscape": "<3.30.0"
+    },
     "peerDependencyRules": {
       "ignoreMissing": [
         "@algolia/client-search",

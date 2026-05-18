@@ -1,3 +1,7 @@
+<template>
+  <div />
+</template>
+
 <!-- <template>
     <div class="project-list">
       <div v-for="(project, index) in projects" :key="index" class="project-item">

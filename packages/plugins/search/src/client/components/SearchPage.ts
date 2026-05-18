@@ -136,7 +136,8 @@ export const SearchPage = defineComponent({
                 autocomplete: "off",
                 spellcheck: false,
                 value: query.value,
-                onInput: (event) => (query.value = event.target.value),
+                onInput: (event) =>
+                  (query.value = (event.target as HTMLInputElement).value),
                 onKeydown: (event) => {
                   switch (event.key) {
                     case "ArrowUp": {

@@ -32,7 +32,7 @@ links:
         desc: Crypto glue X
 
       - sitename: SmilejiaSmile
-        url: https://ai-chen2050.github.io/gluex
+        url: https://blog.csdn.net/smilejiasmile
         img: /img/links/acm.svg
         desc: Zh Tech Blog
 ---
