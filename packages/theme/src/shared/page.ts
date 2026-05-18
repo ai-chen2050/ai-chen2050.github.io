@@ -49,13 +49,17 @@ export interface GungnirThemePostFrontmatter
 interface LinkItem {
   sitename: string;
   url: string;
-  img: string;
+  img?: string;
   desc: string;
+  tag?: string;
+  color?: string;
+  lang?: string;
 }
 
 interface LinkGroup {
   title: string;
-  item: Array<LinkItem>;
+  subtitle?: string;
+  items: Array<LinkItem>;
 }
 
 export interface GungnirThemeLinksPageFrontmatter
@@ -67,14 +71,18 @@ export interface GungnirThemeLinksPageFrontmatter
 interface ProjItem {
   sitename: string;
   url: string;
-  img: string;
+  img?: string;
   desc: string;
-  showDescription: boolean;
+  tag?: string;
+  color?: string;
+  lang?: string;
+  showDescription?: boolean;
 }
 
 interface ProjGroup {
   title: string;
-  item: Array<ProjItem>;
+  subtitle?: string;
+  items: Array<ProjItem>;
 }
 
 export interface GungnirThemeProjsPageFrontmatter

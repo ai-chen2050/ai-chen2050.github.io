@@ -9,7 +9,10 @@
           :key="`link-group-${groupId}`"
           class="link-section"
         >
-          <h2>{{ group.title }}</h2>
+          <h2>
+            {{ group.title }}
+            <span v-if="group.subtitle" class="link-subtitle">{{ group.subtitle }}</span>
+          </h2>
           <div class="link-group">
             <div
               v-for="(item, itemId) in group.items"
@@ -18,7 +21,12 @@
             >
               <div class="content">
                 <a :href="item.url" target="_blank" rel="noopener noreferrer">
-                  <img :src="$withBase(item.img)" />
+                  <img v-if="item.img" :src="$withBase(item.img)" />
+                  <span
+                    v-else
+                    class="link-badge"
+                    :style="badgeStyle(item)"
+                  >{{ initials(item.sitename) }}</span>
                   <span class="sitename">
                     {{ item.sitename }}
                   </span>
@@ -58,4 +66,42 @@ const pageInfo = computed(() => {
   if (info.title === undefined) info.title = themeLocale.value.pageText?.links;
   return info;
 });
+
+const PALETTE = [
+  ["#667eea", "#764ba2"],
+  ["#f093fb", "#f5576c"],
+  ["#4facfe", "#00f2fe"],
+  ["#43e97b", "#38f9d7"],
+  ["#fa709a", "#fee140"],
+  ["#30cfd0", "#330867"],
+  ["#a8edea", "#fed6e3"],
+  ["#ff9a9e", "#fad0c4"],
+];
+
+function hashCode(str: string): number {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) {
+    h = (h << 5) - h + str.charCodeAt(i);
+    h |= 0;
+  }
+  return Math.abs(h);
+}
+
+function initials(name: string): string {
+  if (!name) return "";
+  const cleaned = name.replace(/[-_/]/g, " ").trim();
+  const parts = cleaned.split(/\s+/).filter(Boolean);
+  if (parts.length === 1) {
+    return parts[0].slice(0, 2).toUpperCase();
+  }
+  return (parts[0][0] + parts[1][0]).toUpperCase();
+}
+
+function badgeStyle(item: { sitename: string; color?: string }) {
+  if (item.color) {
+    return { background: item.color };
+  }
+  const [a, b] = PALETTE[hashCode(item.sitename) % PALETTE.length];
+  return { background: `linear-gradient(135deg, ${a} 0%, ${b} 100%)` };
+}
 </script>

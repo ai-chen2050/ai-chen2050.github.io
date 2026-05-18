@@ -2,46 +2,58 @@
 @import '../_mixins';
 
 .links-wrapper {
-  padding: 10px 0 50px;
+  padding: 10px 0 60px;
 }
 
 .link-section {
-  width: 60%;
-  max-width: 745px;
+  width: 70%;
+  max-width: 880px;
   margin: 0 auto;
 
   h2 {
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 20px;
     border-left: 3px solid var(--c-text-accent);
     padding-left: 10px;
     margin-left: 5px;
     margin-top: 50px;
+    line-height: 1.4;
+
+    .link-subtitle {
+      display: block;
+      margin-top: 4px;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--c-text-sub);
+    }
   }
 }
 
 .link-group {
   width: 100%;
   list-style: none;
-  margin-top: 10px;
+  margin-top: 12px;
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: repeat(3, 33.33%);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
 }
 
 .link-item {
-  margin: 4px;
   cursor: pointer;
 
   .content {
+    height: 100%;
     border: 1px solid var(--c-border);
     border-radius: 10px;
-    padding: 13px 30px 13px 20px;
+    padding: 14px 18px 14px 18px;
     overflow: hidden;
-    @include transition(all ease .3s);
+    background: var(--c-bg);
+    @include transition(all ease .25s);
 
     a {
       text-decoration: none;
+      display: block;
 
       img {
         padding: 2px;
@@ -50,9 +62,26 @@
         float: right;
         box-shadow: inset 0 0 10px var(--c-text);
         margin-top: 5px;
-        margin-right: -15px;
-        width: 65px;
-        height: 65px;
+        margin-right: -8px;
+        width: 60px;
+        height: 60px;
+      }
+
+      .link-badge {
+        float: right;
+        margin-top: 5px;
+        margin-right: -8px;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.95);
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.04em;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
       }
 
       span.sitename {
@@ -61,7 +90,6 @@
         display: block;
         overflow: hidden;
         text-overflow: ellipsis;
-        -o-text-overflow: ellipsis;
         white-space: nowrap;
         font-weight: 600;
       }
@@ -69,35 +97,35 @@
       .desc {
         color: var(--c-text-sub);
         font-size: 13px;
-        padding: 10px 0;
-        border-top: 1px dashed #ddd;
+        padding: 10px 0 0;
+        border-top: 1px dashed var(--c-border);
         text-overflow: ellipsis;
         overflow: hidden;
-        line-height: 15px;
+        line-height: 1.5;
       }
     }
 
     &:hover {
       border: 1px solid transparent;
       box-shadow: var(--box-shadow-hover);
-      @include transform(translate(0px, -3px));
+      @include transform(translate(0, -3px));
     }
   }
 }
 
 @media (max-width: $MQLarge) {
   .link-section {
-    width: 75%;
+    width: 80%;
   }
 }
 
 @media (max-width: $MQIpad) {
   .link-section {
-    width: 85%;
+    width: 90%;
   }
 
   .link-group {
-    grid-template-columns: repeat(2, 49.5%);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -111,11 +139,7 @@
   }
 
   .link-group {
-    grid-template-columns: repeat(1, 100%);
-  }
-
-  .link-item {
-    margin-left: 15px;
-    margin-right: 15px;
+    grid-template-columns: 1fr;
+    padding: 0 15px;
   }
 }

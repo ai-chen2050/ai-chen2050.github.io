@@ -7,28 +7,110 @@ projs:
       - sitename: Moltrade
         url: https://clawhub.ai/ai-chen2050/moltrade
         img: /img/projs/moltrade.png
-        desc: Moltrade AI Automation Trading Bot
+        desc: Moltrade AI Automation Trading Bot.
+
       - sitename: GlueX
         url: https://ai-chen2050.github.io/gluex
         img: /img/projs/glueX.jpg
-        desc: With Crypto glue X
+        desc: With Crypto glue X.
+
       - sitename: Ob-Wechat-Plugin
         url: https://github.com/ai-chen2050/obsidian-wechat-public-platform
         img: /img/projs/obsidian-wechat.png
-        desc: Obsidian + Wechat Public Platform
-        
-  - title: External 
+        desc: ⭐ 150 — Obsidian + Wechat Public Platform.
+
+  - title: External
     items:
       - sitename: Bitcoin
         url: https://bitcoin.org/bitcoin.pdf
         img: /img/links/bitcoin.png
-        desc: Gold Coin
+        desc: Gold Coin.
+
       - sitename: Solana
         url: https://solana.com/
         img: /img/projs/solana.png
-        desc: Solana Network
+        desc: Solana Network.
+
       - sitename: AI-CHEN2050
         url: https://github.com/ai-chen2050
         img: /img/avatar1.jpg
-        desc: Code in one place
+        desc: Code in one place.
+
+  - title: Hetu Project
+    subtitle: Causality-driven infrastructure for the AI-native economy · ⭐ them on GitHub
+    items:
+      - sitename: hetu-chain
+        url: https://github.com/hetu-project/hetu-chain
+        desc: Mainnet interface of the Hetu subnet ecosystem — Cosmos-SDK + EVM, evolved from Evmos.
+        tag: Hetu
+        lang: Go
+
+      - sitename: Setu
+        url: https://github.com/hetu-project/Setu
+        desc: A causally-driven distributed ledger system designed for the AI-native economy.
+        tag: Hetu
+        lang: Rust
+
+      - sitename: causalitygraph
+        url: https://github.com/hetu-project/causalitygraph
+        desc: Decentralized data-collaboration network that achieves fast, verifiable causality and consistency off-chain.
+        tag: Hetu
+        lang: Rust
+
+      - sitename: prakasa
+        url: https://github.com/hetu-project/prakasa
+        desc: A decentralized, privacy-preserving P2P GPU inference network built on Parallax.
+        tag: Hetu
+        lang: Python
+
+      - sitename: hetu-checkpoint
+        url: https://github.com/hetu-project/hetu-checkpoint
+        desc: Hetu verification network providing multi-dimensional security guarantees.
+        tag: Hetu
+        lang: Go
+
+      - sitename: aegean-consensus
+        url: https://github.com/hetu-project/aegean-consensus
+        desc: Byzantine Fault-Tolerant consensus protocol for multi-agent LLM systems.
+        tag: Hetu
+        lang: Python
+
+  - title: Loka Network
+    subtitle: Lightning-Network–native AI payment rails · ⭐ them on GitHub
+    items:
+      - sitename: loka-chain
+        url: https://github.com/loka-network/loka-chain
+        desc: Fully EVM-compatible chain with NeoBFT consensus and Block-STM parallel execution.
+        tag: Loka
+        lang: Go
+
+      - sitename: loka-p2p-lnd
+        url: https://github.com/loka-network/loka-p2p-lnd
+        desc: Agentic-payments P2P Lightning node built natively on top of the Bitcoin Lightning Network.
+        tag: Loka
+        lang: Go
+
+      - sitename: paycli
+        url: https://github.com/loka-network/paycli
+        desc: Single-binary Loka Payment CLI + Go SDK for L402 / Lightning payments.
+        tag: Loka
+        lang: Go
+
+      - sitename: loka-prism-l402
+        url: https://github.com/loka-network/loka-prism-l402
+        desc: Turn API traffic into revenue — reverse-proxy gateway for HTTP-402 micropayments.
+        tag: Loka
+        lang: Go
+
+      - sitename: agents-pay-service
+        url: https://github.com/loka-network/agents-pay-service
+        desc: Agentic Lightning-payment system for multi-agent AI, built on LNbits.
+        tag: Loka
+        lang: Python
+
+      - sitename: loka-nostr-middleware
+        url: https://github.com/loka-network/loka-nostr-middleware
+        desc: High-performance Rust Nostr relayer powering the Loka payment stack.
+        tag: Loka
+        lang: Rust
 ---
