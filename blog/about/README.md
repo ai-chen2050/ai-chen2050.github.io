@@ -16,7 +16,7 @@ I'm also interested in applying modern mathematical principles and related algor
 
 Previously, I received my master's degree in [Software Engineering](http://www.sei.ecnu.edu.cn/) at [East China Normal University](https://www.ecnu.edu.cn/) and my bachelor's degree in [New Energy Science and Engineering](https://ss.jou.edu.cn/) at [Jiangsu Ocean University](https://www.jou.edu.cn/).
 
-## Experience
+<!-- ## Experience
 
 | Company | Role | Period | Type |
 | --- | --- | --- | --- |
@@ -24,7 +24,7 @@ Previously, I received my master's degree in [Software Engineering](http://www.s
 | [KAMI Vision](https://kamivision.com/) | Senior Web3 / DePIN Engineer | 2023.02 – 2023.12 | Fulltime |
 | [Amber Group](https://www.linkedin.com/company/amberbtc/) | Blockchain Infra Dev / Searcher | 2022.04 – 2022.12 | Fulltime |
 | Shanghai Jiansu Network Tech | Consortium Blockchain Dev | 2020.05 – 2022.04 | Fulltime |
-| Shanghai [Distribution / Ontology](https://www.linkedin.com/company/onchain/) | Blockchain Wallet & Core Dev | 2017.08 – 2020.04 | Fulltime |
+| Shanghai [Distribution / Ontology](https://www.linkedin.com/company/onchain/) | Blockchain Wallet & Core Dev | 2017.08 – 2020.04 | Fulltime | -->
 
 ## What I'm Building (2024 – 2026)
 
