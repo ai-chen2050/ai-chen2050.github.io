@@ -19,6 +19,16 @@ projs:
         img: /img/projs/obsidian-wechat.png
         desc: ⭐ 150 — Obsidian + Wechat Public Platform.
 
+      - sitename: Chihaofan
+        url: https://ai-chen2050.github.io/chihaofan/
+        img: /img/projs/chihaofan.png
+        desc: AI fridge manager and recipe planner.
+
+      - sitename: "Louis XVI: Fall of Versailles"
+        url: https://ai-chen2050.github.io/crownfire
+        img: /img/projs/crownfire.png
+        desc: A turn-based strategy roguelite set in revolutionary France.
+
   - title: External
     items:
       - sitename: Bitcoin
