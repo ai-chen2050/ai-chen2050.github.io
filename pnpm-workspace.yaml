@@ -2,6 +2,21 @@ packages:
   - blog
   - packages/plugins/*
   - packages/theme
+
+overrides:
+  cytoscape: '<3.30.0'
+
+peerDependencyRules:
+  ignoreMissing:
+    - '@algolia/client-search'
+    - '@types/react'
+    - eslint-plugin-import
+    - eslint-plugin-n
+    - eslint-plugin-promise
+    - react
+    - react-dom
+    - webpack
+
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true
