@@ -37,6 +37,7 @@
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(3, 33.33%);
+  row-gap: 25px;
 }
 
 .proj-item {

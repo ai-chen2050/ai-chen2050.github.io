@@ -2,3 +2,7 @@ packages:
   - blog
   - packages/plugins/*
   - packages/theme
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  vue-demi: true
