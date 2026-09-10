@@ -24,6 +24,16 @@ projs:
         img: /img/projs/chihaofan.png
         desc: AI fridge manager and recipe planner.
 
+      - sitename: DressWell
+        url: https://ai-chen2050.github.io/dresswell/
+        img: /img/projs/chuanhaoyi.png
+        desc: A 3D fitting room that lives on your phone.
+
+      - sitename: Grow Together
+        url: https://ai-chen2050.github.io/yanghaowa/
+        img: /img/projs/yanghaowa.png
+        desc: Age-staged parenting log for 0-18, all data on your phone.
+
       - sitename: "Louis XVI: Fall of Versailles"
         url: https://ai-chen2050.github.io/crownfire
         img: /img/projs/crownfire.png
