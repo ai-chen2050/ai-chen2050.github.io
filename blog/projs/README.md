@@ -34,6 +34,16 @@ projs:
         img: /img/projs/yanghaowa.png
         desc: Age-staged parenting log for 0-18, all data on your phone.
 
+      - sitename: Accrue Notes
+        url: https://ai-chen2050.github.io/accrue/
+        img: /img/projs/fulibiji.png
+        desc: Local-first bi-directional Markdown PKM & AI cognitive mirror.
+
+      - sitename: ASC Watcher
+        url: https://ai-chen2050.github.io/asc-watcher/
+        img: /img/projs/asc-watcher.png
+        desc: Local-first App Store Connect sales, reviews & release companion.
+
       - sitename: "Louis XVI: Fall of Versailles"
         url: https://ai-chen2050.github.io/crownfire
         img: /img/projs/crownfire.png
